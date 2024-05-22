@@ -1,10 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #14180c;
+    background-color:#ebebeb;
+}
+
+header {
+    background-color: #0a0f0b;
+}
+
+.container {
+    margin-top: 5%;
+    padding: 2%;
+    background-color: #e7f0e9;
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px #46aa5cb4;
+    backdrop-filter: blur(10px);
+    width: 50%;
+}
+
+.form-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #46aa5b;
+}
+
+.form-group {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.form-control {
+    margin-bottom: 1em;
+}
+
+.idx {
+    font-weight: 500;
+}
 
 
 
 
 
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
 
-
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
 
 /* Footer design*/
 footer {
@@ -12,7 +63,7 @@ footer {
     bottom: 0;
     width: 100%; 
     height: auto;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
 }
 .footer {
     position: fixed;
@@ -20,7 +71,7 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 10px 0;    
-    background: #a8a7a744;
+    background: #f7fbf844;
 }
 
 /* Redes */
