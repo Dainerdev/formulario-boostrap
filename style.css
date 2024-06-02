@@ -6,7 +6,8 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: #14180c;
-    background-color:#ebebeb;
+    background-color:#ffe;
+    height: calc(100% + 10%);
 }
 
 header {
@@ -30,6 +31,18 @@ header {
     color: #46aa5b;
 }
 
+.form-title h5 {    
+    margin-left: 2%;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: #46aa5b;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px 1px #bbc;
+}
+
 .form-group {
     margin-top: 2%;
     margin-bottom: 4%;
@@ -43,9 +56,25 @@ header {
     font-weight: 500;
 }
 
+.main{
+    height: 1000px;
+}
 
+label {
+    margin-bottom: 5px;
+    color: #233;
+}
 
+input, select, textarea{
+    box-shadow: 0 0 5px 2px #ddc;
+}
 
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
 .btn-primary {
     background-color: #007bff;

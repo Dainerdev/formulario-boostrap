@@ -8,105 +8,109 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Formularios Boostrap - Dainer Florian</title>
 </head>
-<body>
+<div>
     <header class="container-fluid text-white py-3">
-        <h1>Formularios con Boostrap</h1>
+        <h1>Formulario con Boostrap y CSS</h1>
     </header>
-
-    <main class="container">
-        <div class="form-title">
-            <h5>Coméntanos tu experiencia</h5>
-        </div>
-        <form>
-            <div class="form-group">
-                <label class="idx" for="name">Nick:</label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Username" required>
+    <div class="main">
+        <main class="container">
+            <div class="form-title">
+                <h5>Coméntanos tu experiencia</h5>
+                <div class="line"></div>
             </div>
-            <div class="form-group">
-                <label class="idx" for="email">Correo Electrónico:</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
-            </div>
-            <div class="form-group">
-                <label class="idx" for="message">Mensaje:</label>
-                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Write your experience" required></textarea>
-            </div>
-            <div class="form-group">
-                <label class="idx" for="edad">Horas de juego (al día):</label>
-                <select class="form-control" id="edad" name="edad" required>
-                    <option value="">Seleccione...</option>
-                    <option value="edad1">Menos de 5 horas</option>
-                    <option value="edad2">Entre 5 y 10 horas</option>
-                    <option value="edad3">Más de 10 horas</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label class="idx">Géneros Favoritos:</label><br>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="interest1" name="interests" value="Acción">
-                    <label class="form-check-label" for="interest1">Acción</label>
+            <form>
+                <div class="form-group">
+                    <label class="idx" for="name">Nick:</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Username" required>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="interest2" name="interests" value="Aventura">
-                    <label class="form-check-label" for="interest2">Aventura</label>
+                <div class="form-group">
+                    <label class="idx" for="email">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="interest3" name="interests" value="Estrategia">
-                    <label class="form-check-label" for="interest3">Estrategia</label>
+                <div class="form-group">
+                    <label class="idx" for="message">Mensaje:</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Write your experience" required></textarea>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="interest4" name="interests" value="Simulación">
-                    <label class="form-check-label" for="interest4">Simulación</label>
+                <div class="form-group">
+                    <label class="idx" for="edad">Horas de juego (al día):</label>
+                    <select class="form-control" id="edad" name="edad" required>
+                        <option value="">Seleccione...</option>
+                        <option value="edad1">Menos de 5 horas</option>
+                        <option value="edad2">Entre 5 y 10 horas</option>
+                        <option value="edad3">Más de 10 horas</option>
+                    </select>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="interest5" name="interests" value="Rol">
-                    <label class="form-check-label" for="interest5">Rol</label>
+                <div class="form-group">
+                    <label class="idx">Géneros Favoritos:</label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="interest1" name="interests" value="Acción">
+                        <label class="form-check-label" for="interest1">Acción</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="interest2" name="interests" value="Aventura">
+                        <label class="form-check-label" for="interest2">Aventura</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="interest3" name="interests" value="Estrategia">
+                        <label class="form-check-label" for="interest3">Estrategia</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="interest4" name="interests" value="Simulación">
+                        <label class="form-check-label" for="interest4">Simulación</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="interest5" name="interests" value="Rol">
+                        <label class="form-check-label" for="interest5">Rol</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="interest6" name="interests" value="Carreras">
+                        <label class="form-check-label" for="interest6">Carreras</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="interest7" name="interests" value="Arcade">
+                        <label class="form-check-label" for="interest7">Arcade</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="interest8" name="interests" value="Indie">
+                        <label class="form-check-label" for="interest8">Indie</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="interest9" name="interests" value="Otros">
+                        <label class="form-check-label" for="interest9">Otros</label>
+                    </div>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="interest6" name="interests" value="Carreras">
-                    <label class="form-check-label" for="interest6">Carreras</label>
+                <div class="form-group">
+                    <label class="idx">Plataforma favorita:</label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="genre1" name="genre" value="PlayStation">
+                        <label class="form-check-label" for="genre1">PlayStation</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="genre2" name="genre" value="Xbox">
+                        <label class="form-check-label" for="genre2">Xbox</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="genre3" name="genre" value="PC">
+                        <label class="form-check-label" for="genre3">PC</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="genre4" name="genre" value="Nintendo">
+                        <label class="form-check-label" for="genre4">Nintendo</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="genre5" name="genre" value="Otra">
+                        <label class="form-check-label" for="genre5">Otra</label>
+                    </div>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="interest7" name="interests" value="Arcade">
-                    <label class="form-check-label" for="interest7">Arcade</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="interest8" name="interests" value="Indie">
-                    <label class="form-check-label" for="interest8">Indie</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="interest9" name="interests" value="Otros">
-                    <label class="form-check-label" for="interest9">Otros</label>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="idx">Plataforma favorita:</label><br>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="genre1" name="genre" value="PlayStation" required>
-                    <label class="form-check-label" for="genre1">PlayStation</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="genre2" name="genre" value="Xbox">
-                    <label class="form-check-label" for="genre2">Xbox</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="genre3" name="genre" value="PC">
-                    <label class="form-check-label" for="genre3">PC</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="genre4" name="genre" value="Nintendo" required>
-                    <label class="form-check-label" for="genre4">Nintendo</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="genre5" name="genre" value="Otra">
-                    <label class="form-check-label" for="genre5">Otra</label>
-                </div>
-            </div>
-            <button type="reset" class="btn btn-primary">Limpiar</button>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-        
-    </main>
-
+                <div class="line"></div>
+                <div class="actions">
+                    <button type="reset" class="btn btn-primary">Limpiar</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>                
+            </form>
+            
+        </main>
+    </div>
     <footer class="footer">
         <div id="contact" class="contact">
             <span>Contáctame: <br></span>
